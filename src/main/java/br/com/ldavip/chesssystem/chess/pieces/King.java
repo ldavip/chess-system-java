@@ -1,10 +1,10 @@
-package chess.pieces;
+package br.com.ldavip.chesssystem.chess.pieces;
 
-import boardgame.Board;
-import boardgame.Position;
-import chess.ChessMatch;
-import chess.ChessPiece;
-import chess.Color;
+import br.com.ldavip.chesssystem.boardgame.Board;
+import br.com.ldavip.chesssystem.boardgame.Position;
+import br.com.ldavip.chesssystem.chess.ChessMatch;
+import br.com.ldavip.chesssystem.chess.ChessPiece;
+import br.com.ldavip.chesssystem.chess.Color;
 
 public class King extends ChessPiece {
 

@@ -1,14 +1,14 @@
-package application;
+package br.com.ldavip.chesssystem.application.console;
 
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
-import chess.ChessException;
-import chess.ChessMatch;
-import chess.ChessPiece;
-import chess.ChessPosition;
+import br.com.ldavip.chesssystem.chess.ChessException;
+import br.com.ldavip.chesssystem.chess.ChessMatch;
+import br.com.ldavip.chesssystem.chess.ChessPiece;
+import br.com.ldavip.chesssystem.chess.ChessPosition;
 
 public class Program {
 
@@ -20,18 +20,18 @@ public class Program {
 		
 		while (!chessMatch.getCheckMate()) {
 			try {
-				UI.clearScreen();
-				UI.printMatch(chessMatch, captured);
+				ConsoleUI.clearScreen();
+				ConsoleUI.printMatch(chessMatch, captured);
 				System.out.println();
 				System.out.print("Source: ");
-				ChessPosition source = UI.readChessPosition(sc);
+				ChessPosition source = ConsoleUI.readChessPosition(sc);
 				
 				boolean[][] possibleMoves = chessMatch.possibleMoves(source);
-				UI.clearScreen();
-				UI.printBoard(chessMatch.getPieces(), possibleMoves);
+				ConsoleUI.clearScreen();
+				ConsoleUI.printBoard(chessMatch.getPieces(), possibleMoves);
 				System.out.println();
 				System.out.print("Target: ");
-				ChessPosition target = UI.readChessPosition(sc);
+				ChessPosition target = ConsoleUI.readChessPosition(sc);
 				
 				ChessPiece capturedPiece = chessMatch.performChessMove(source, target);
 				
@@ -58,7 +58,7 @@ public class Program {
 				sc.nextLine();
 			}
 		}
-		UI.clearScreen();
-		UI.printMatch(chessMatch, captured);
+		ConsoleUI.clearScreen();
+		ConsoleUI.printMatch(chessMatch, captured);
 	}
 }

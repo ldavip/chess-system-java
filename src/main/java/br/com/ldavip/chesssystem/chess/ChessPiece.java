@@ -1,8 +1,8 @@
-package chess;
+package br.com.ldavip.chesssystem.chess;
 
-import boardgame.Board;
-import boardgame.Piece;
-import boardgame.Position;
+import br.com.ldavip.chesssystem.boardgame.Board;
+import br.com.ldavip.chesssystem.boardgame.Piece;
+import br.com.ldavip.chesssystem.boardgame.Position;
 
 public abstract class ChessPiece extends Piece {
 

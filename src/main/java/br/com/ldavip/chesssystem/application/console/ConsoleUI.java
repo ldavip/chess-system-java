@@ -1,4 +1,4 @@
-package application;
+package br.com.ldavip.chesssystem.application.console;
 
 import java.util.Arrays;
 import java.util.InputMismatchException;
@@ -6,12 +6,12 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-import chess.ChessMatch;
-import chess.ChessPiece;
-import chess.ChessPosition;
-import chess.Color;
+import br.com.ldavip.chesssystem.chess.ChessMatch;
+import br.com.ldavip.chesssystem.chess.ChessPiece;
+import br.com.ldavip.chesssystem.chess.ChessPosition;
+import br.com.ldavip.chesssystem.chess.Color;
 
-public class UI {
+public class ConsoleUI {
 
 	// https://stackoverflow.com/questions/5762491/how-to-print-color-in-console-using-system-out-println
 

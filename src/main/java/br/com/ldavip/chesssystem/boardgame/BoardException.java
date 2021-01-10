@@ -1,4 +1,4 @@
-package boardgame;
+package br.com.ldavip.chesssystem.boardgame;
 
 public class BoardException extends RuntimeException {
 	private static final long serialVersionUID = 1L;

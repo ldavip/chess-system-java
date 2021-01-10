@@ -1,4 +1,4 @@
-package boardgame;
+package br.com.ldavip.chesssystem.boardgame;
 
 public abstract class Piece {
 
