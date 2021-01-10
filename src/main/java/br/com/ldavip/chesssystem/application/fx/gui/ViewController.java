@@ -257,12 +257,6 @@ public class ViewController implements Initializable {
 					if (chessMatch.getPromoted() != null) {
 						log.severe("Enter piece for promotion (B/N/R/Q): ");
 						showAlert(AlertType.INFORMATION, "Select promotion!");
-//						String type = sc.nextLine().toUpperCase();
-//						while (!type.equals("B") && !type.equals("N") && !type.equals("R") & !type.equals("Q")) {
-//							System.out.print("Invalid value! Enter piece for promotion (B/N/R/Q): ");
-//							type = sc.nextLine().toUpperCase();
-//						}
-//						chessMatch.replacePromotedPiece(type);
 					}
 
 					if (chessMatch.getCheckMate()) {
@@ -404,83 +398,5 @@ public class ViewController implements Initializable {
 		alert.setContentText(message);
 		alert.showAndWait();
 	}
-
-//	private void configureDragAndDrop(ImageView iv) {
-//		iv.setOnDragDetected((MouseEvent event) -> {
-//			System.out.println("Source: " + event.getSource());
-//			if (iv.getImage() != null) {
-//				System.out.println("Show possible moves");
-//
-//				Dragboard db = iv.startDragAndDrop(TransferMode.ANY);
-//				ClipboardContent content = new ClipboardContent();
-//				content.putImage(iv.getImage());
-//				db.setContent(content);
-//				event.consume();
-//			}
-//		});
-//		iv.setOnDragOver(event -> {
-//			System.out.println("Current: " + iv);
-//			System.out.println("Source: " + event.getSource());
-//			System.out.println("Landing dragged");
-//			if (event.getGestureSource() != iv && event.getDragboard().hasImage()) {
-//				event.acceptTransferModes(TransferMode.COPY_OR_MOVE);
-//			}
-//			event.consume();
-//		});
-//		iv.setOnDragDone(new EventHandler<DragEvent>() {
-//			public void handle(DragEvent event) {
-//
-//				System.out.println("Drag done");
-//				Dragboard db = event.getDragboard();
-//
-//				if (db.hasImage()) {
-//					iv.setImage(db.getImage());
-//				}
-//				event.consume();
-//
-//			}
-//		});
-//	}
-
-//	private ImageView createImageView(ChessPiece piece, Image image) {
-//		ImageView iv = new ImageView(image);
-////		imageView.setOnMouseDragged(new PreviewMoves(piece, this::getMatch));
-//
-//		iv.setOnDragDetected((MouseEvent event) -> {
-//			Dragboard db = iv.startDragAndDrop(TransferMode.ANY);
-//			ClipboardContent content = new ClipboardContent();
-//			content.putImage(iv.getImage());
-//			db.setContent(content);
-//			event.consume();
-//		});
-//
-//		iv.setOnDragOver(new EventHandler<DragEvent>() {
-//			public void handle(DragEvent event) {
-//				if (event.getGestureSource() != iv && event.getDragboard().hasImage()) {
-//					event.acceptTransferModes(TransferMode.COPY_OR_MOVE);
-//				}
-//				event.consume();
-//
-//			}
-//		});
-//
-//		iv.setOnDragDone(new EventHandler<DragEvent>() {
-//			public void handle(DragEvent event) {
-//
-//				System.out.println(
-//						event.getGestureSource() + " -> (" + event.getSceneX() + ", " + event.getSceneY() + ")");
-//				Dragboard db = event.getDragboard();
-//
-////	           if (db.hasImage()) {
-////	                iv2.setImage(db.getImage());
-////	            }
-//				event.consume();
-//
-//			}
-//		});
-//
-////		iv.setOnMouseExited(new ClearMoves());
-//		return iv;
-//	}
 
 }

@@ -1,6 +1,7 @@
 package br.com.ldavip.chesssystem.application.fx;
 
 import java.io.IOException;
+import java.net.URL;
 
 import br.com.ldavip.chesssystem.application.fx.gui.ViewController;
 import javafx.application.Application;
@@ -14,13 +15,14 @@ public class Program extends Application {
 	@Override
 	public void start(Stage stage) {
 		try {
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("./gui/View.fxml"));
+			URL location = getClass().getClassLoader().getResource("gui/View.fxml");
+			FXMLLoader loader = new FXMLLoader(location);
 			Parent parent = loader.load();
 			Scene scene = new Scene(parent);
-			scene.getStylesheets().add("/br/com/ldavip/chesssystem/application/fx/gui/stylesheet.css");
-			ViewController controller = (ViewController) loader.getController();
+			scene.getStylesheets().add("gui/stylesheet.css");
 			stage.setScene(scene);
 			stage.setResizable(false);
+			ViewController controller = loader.getController();
 			controller.setupListeners(stage);
 			stage.show();
 		} catch (IOException e) {
