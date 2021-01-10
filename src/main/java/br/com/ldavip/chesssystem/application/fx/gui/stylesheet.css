@@ -1,0 +1,29 @@
+.color-white {
+	-fx-background-color: white;
+	background-color: white;
+}
+
+.color-black {
+	-fx-background-color: #444444;
+	background-color: #444444;
+}
+
+.selected {
+	-fx-border-color: blue;
+    -fx-border-insets: 5;
+    -fx-border-width: 3;
+    -fx-border-style: dashed;
+}
+
+.invalid {
+	-fx-background-color: red;
+	background-color: red;
+}
+
+.popup {
+    -fx-background-color: cornsilk;
+    -fx-padding: 10;
+    -fx-border-color: black; 
+    -fx-border-width: 5;
+    -fx-font-size: 16;
+}

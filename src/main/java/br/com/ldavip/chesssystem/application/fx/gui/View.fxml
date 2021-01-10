@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" maxHeight="640.0" maxWidth="860.0" minHeight="640.0" minWidth="860.0" prefHeight="640.0" prefWidth="860.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.ldavip.chesssystem.application.fx.gui.ViewController">
+   <children>
+      <BorderPane layoutX="111.0" layoutY="33.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <GridPane gridLinesVisible="true" BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+               <children>
+                  <StackPane styleClass="color-white" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <children>
+                        <ImageView fx:id="a8" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="b8" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="c8" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="d8" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="e8" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="f8" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="g8" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="a7" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="b7" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="c7" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="d7" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="e7" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="f7" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="g7" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="a6" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="b6" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="c6" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="d6" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="e6" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="f6" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="g6" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="h8" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="h6" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="a5" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="c5" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="e5" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="g5" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="b4" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="b2" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="a3" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="b5" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="d5" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="a4" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="a2" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="a1" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="b3" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="b1" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="c4" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="c3" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="c2" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="c1" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="d4" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="d3" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="d2" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="d1" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="e4" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="e3" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="e2" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="e1" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="f5" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="f4" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="f3" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="f2" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="f1" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="g4" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="g3" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="g2" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="g1" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="h5" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="h4" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="h3" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="h2" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="h1" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-white" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="h7" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+                  <StackPane styleClass="color-black" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <children>
+                  		<ImageView fx:id="h8" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </StackPane>
+               </children>
+            </GridPane>
+         </center>
+         <top>
+            <FlowPane alignment="CENTER_LEFT" hgap="10.0" prefHeight="30.0" BorderPane.alignment="CENTER_LEFT">
+               <children>
+                  <Label text="Current player: " />
+                  <Label fx:id="lblPlayer">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="10.0" right="5.0" top="5.0" />
+               </padding>
+            </FlowPane>
+         </top>
+         <right>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="260.0" spacing="5.0" BorderPane.alignment="CENTER">
+               <children>
+                  <BorderPane prefHeight="270.0" prefWidth="260.0" style="-fx-border-color: black;" VBox.vgrow="ALWAYS">
+                     <top>
+                        <Label alignment="CENTER" maxWidth="1.7976931348623157E308" text="BLACK" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Label>
+                     </top>
+                     <center>
+                        <FlowPane fx:id="blackCapturedPane" hgap="2.0" vgap="2.0" BorderPane.alignment="CENTER">
+                           <padding>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </padding>
+                        </FlowPane>
+                     </center>
+                  </BorderPane>
+                  <BorderPane prefHeight="270.0" prefWidth="260.0" style="-fx-border-color: black;" VBox.vgrow="ALWAYS">
+                     <top>
+                        <Label alignment="CENTER" maxWidth="1.7976931348623157E308" text="WHITE" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Label>
+                     </top>
+                     <center>
+                        <FlowPane fx:id="whiteCapturedPane" hgap="2.0" vgap="2.0" BorderPane.alignment="CENTER">
+                           <padding>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </padding>
+                        </FlowPane>
+                     </center>
+                  </BorderPane>
+               </children>
+               <BorderPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </BorderPane.margin>
+            </VBox>
+         </right>
+      </BorderPane>
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="10.0" top="10.0" />
+   </padding>
+</AnchorPane>
